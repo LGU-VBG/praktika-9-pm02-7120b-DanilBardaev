@@ -1,0 +1,29 @@
+.vse {
+  display: flex;
+  margin: 150px;
+}
+
+.fon {
+  margin: auto;
+  margin-top: 150px;
+  height: 300px;
+  width: 400px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid silver;
+  border-radius: 10%;
+  box-shadow: 4px 30px 34px -20px rgba(0, 0, 0, 0.51);
+  -webkit-box-shadow: 4px 30px 34px -20px rgba(0, 0, 0, 0.51);
+  -moz-box-shadow: 4px 30px 34px -20px rgba(0, 0, 0, 0.51);
+}
+.fon:hover {
+  box-shadow: -200px -200px 5px -200px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: -200px -200px 5px -200px rgba(0, 0, 0, 0);
+  -moz-box-shadow: -200px -200px 5px -200px rgba(0, 0, 0, 0);
+}
+.fon img {
+  margin: 15px;
+  margin-left: 20px;
+  max-width: 360px;
+  max-height: 440px;
+  border-radius: 20%;
+}
